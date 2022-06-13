@@ -1,0 +1,29 @@
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.price {
+    font-size: 25px;
+}
+
+.currency {
+    font-size: 15px;
+    color: rgb(96, 96, 96);
+}
+
+.today {
+    font-size: 15px;
+    color: green;
+}
+
+.total {
+    font-size: 15px;
+    color: rgb(96, 96, 96);
+}
+
+.reds {
+    font-size: 15px;
+    color: rgb(175, 29, 29);
+}
