@@ -1,0 +1,46 @@
+p {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.status {
+    font-size: 16px;
+    font-weight: bold;
+    color: orangered;
+    margin-bottom: 10px;
+}
+
+.device {
+    font-size: 32px;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 45px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.price {
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: rgb(21, 100, 219);
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    border: none;
+    border-radius: 5px;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    cursor: pointer;
+}
+
+div {
+    text-align: center;
+}
