@@ -1,0 +1,40 @@
+p {
+    font-family: Arial;
+    color: rgb(100, 100, 100);
+}
+
+.mail {
+    font-size: 16px;
+}
+
+.input {
+    font-size: 16px;
+    width: 300px;
+    color: rgb(100, 100, 100);
+    border-style: solid;
+    border-radius: 3px;
+
+}
+
+.advice {
+    font-size: 16px;
+}
+
+.button {
+    background-color: rgb(9, 105, 230);
+    font-size: 18px;
+    color: white;
+    border: none;
+    width: 300px;
+    border-radius: 15px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 40px;
+    padding-right: 40px;
+    cursor: pointer;
+}
+
+.button:active {
+    margin-top: 3px;
+    margin-left: 3px;
+}
