@@ -1,0 +1,47 @@
+.red {
+  width: 150px;
+  height: 150px;
+  background-color: red;
+}
+
+.green {
+  width: 150px;
+  height: 150px;
+  border-radius: 80px;
+  background-color: green;
+  margin-top: 20px;
+}
+
+.white-box {
+  width: 250px;
+  border-width: 1px;
+  border: solid rgb(219, 219, 219);
+  padding: 20px;
+  padding-left: 15px;
+  margin-top: 20px;
+}
+
+.white-box-p {
+  margin-top: 0;
+}
+
+.black-box {
+  background-color: black;
+  width: 300px;
+  padding: 15px;
+  margin-top: 20px;
+}
+
+.subtitle {
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+
+.describtion {
+  font-size: 15px;
+  color: rgb(168, 168, 168);
+  margin-top: 0;
+}
