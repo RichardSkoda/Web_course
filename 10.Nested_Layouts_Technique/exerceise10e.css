@@ -1,0 +1,71 @@
+p {
+  font-family: Roboto, Arial;
+}
+  
+.overview {
+  width: 200px;
+  display: inline-block;
+  margin-right: 15px;
+  box-shadow: 0px 0px 8px rgba(0, 0, 0, .5);
+}
+  
+.icon {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+  
+.name {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 0;
+  margin-top: 10px;
+  margin-left: 8px;
+  }
+  
+.friends-row {
+  margin-top: 5px;
+  margin-bottom: 5px;
+  margin-left: 8px;
+}
+
+.thumbnail {
+  width: 30px;
+  height: 30px;
+  border-radius: 50px;
+  object-fit: cover;
+  vertical-align: middle;
+  margin-right: 5px;
+  }
+
+.person-friends {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 18px;
+  color: rgb(96, 96, 96);
+  margin: 0;
+}
+  
+button {
+  background-color: rgb(10, 121, 239);
+  font-family: Roboto, Arial;
+  color: white;
+  font-size: 18px;
+  border: none;
+  border-radius: 5px;
+  padding-top: 8px;
+  padding-bottom: 8px;
+  padding-left: 15px;
+  padding-right: 15px;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  margin-left: 8px;
+  cursor: pointer;
+  box-shadow: 2px 2px 2px rgba(0, 0, 0, .3);
+}
+  
+button:active {
+  box-shadow: 0px 0px 0px rgba(0, 0, 0, .3);
+  margin-top: 7px;
+  margin-left: 12px;
+}
