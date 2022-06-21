@@ -1,0 +1,35 @@
+div {
+  font-family: Roboto, Arial;
+}
+
+.box {
+  border-width: 0.5px;
+  border: solid;
+  border-color: rgb(200, 200, 200);
+  border-radius: 8px;
+  width: 300px;
+}
+
+.line {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 6px;
+  padding-bottom: 6px;
+  padding-left: 12px;
+  padding-right: 12px;
+}
+
+.notification {
+  background-color: rgb(49, 109, 245);
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  border: none;
+  border-radius: 20px;
+  padding-top: 3px;
+  padding-bottom: 3px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
