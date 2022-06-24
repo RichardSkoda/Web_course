@@ -6,20 +6,131 @@
 }
 
 .left-section {
-  background-color: lightblue;
-  width: 150px;
+  display: flex;
+  align-items: center;
+}
 
+.hamburger-menu {
+  height: 24px;
+  margin-left: 24px;
+  margin-right: 24px;
+}
+
+.youtube-logo {
+  height: 20px;
 }
 
 .middle-section {
-  background-color: lightpink;
+  display: flex;
+  align-items: center;
   flex: 1;
   margin-left: 70px;
   margin-right: 35px;
   max-width: 500px;
 }
 
+.search-bar {
+  flex: 1;
+  height: 36px;
+  border-radius: 2px;
+  padding-left: 10px;
+  border: 1px solid #cccccc;
+  font-size: 16px;
+  box-shadow: inset 1px 2px 3px rgba(0, 0, 0, .05);
+  width: 0;
+}
+
+.search-bar:active {
+  background-color: rgb(31, 28, 114);
+}
+
+.search-bar::placeholder {
+  font-family: Roboto, Arial;
+  font-size: 16px;
+}
+
+.search-button {
+  background-color: rgb(244, 244, 244);
+  height: 40px;
+  width: 64px;
+  border: 1px solid #cccccc;
+  margin-left: -1px;
+  cursor: pointer;
+}
+
+.search-button:hover {
+  background-color: rgb(234, 234, 234);
+}
+
+.search-button:active {
+  background-color: rgb(224, 224, 224);
+}
+
+.search-icon {
+  height: 25px;
+  width: 25px;
+  margin-top: 4px;
+}
+
+.voice-search-button {
+  background-color: rgb(244, 244, 244);
+  height: 40px;
+  width: 40px;
+  border: none;
+  border-radius: 20px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+.voice-search-icon {
+  height: 25px;
+  margin-top: 4px;
+}
+
 .right-section {
-  background-color: lightblue;
-  width: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 210px;
+  flex-shrink: 0;
+}
+
+.upload-button {
+  background-color: white;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+}
+
+.upload-icon {
+  height: 25px;
+}
+
+.apps-button {
+  background-color: white;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+}
+
+.apps-icon {
+  height: 25px;
+}
+
+.notifications-button {
+  background-color: white;
+  height: 40px;
+  border: none;
+  cursor: pointer;
+}
+
+.notifications-icon {
+  height: 25px;
+}
+
+.channel-picture {
+  height: 35px;
+  width: 35px;
+  border-radius: 18px;
+  margin-right: 20px;
 }
