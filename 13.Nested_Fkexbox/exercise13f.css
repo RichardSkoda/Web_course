@@ -1,0 +1,91 @@
+div {
+	font-family: Roboto, Arial;
+}
+
+p {
+	margin: 0;
+	font-size: 15px;
+}
+
+.container {
+	display: block;
+	width: 450px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+
+.profile-picture-box {
+	display: inline-block;
+	width: 70px;
+	vertical-align: top;
+}
+
+.profile-picture {
+	height: 55px;
+	width: 55px;
+	border-radius: 28px;
+}
+
+.twitter-input {
+	display: inline-block;
+	margin-top: 5px;
+}
+
+.input-info {
+	display: inline-block;
+}
+
+.profile-name {
+	font-weight: bold;
+}
+
+.domain {
+	color: rgb(150, 150, 150);
+}
+
+.description-box {
+	width: 330px;
+}
+
+.description {
+	line-height: 21px;
+	margin-bottom: 20px;
+	margin-top: 3px;
+}
+
+.video-container {
+	border: 1px solid rgb(207, 207, 207);
+	border-radius: 15px;
+	width: 330px;
+	height: 100px;
+}
+
+.left {
+	display: inline-block;
+	background-color: rgb(207, 207, 207);
+	height: 100px;
+	width: 100px;
+	border-top-left-radius: 14px;
+	border-bottom-left-radius: 14px;
+}
+
+
+.right {
+	display: inline-block;
+	background-color: white;
+	vertical-align: top;
+	width: 210px;
+	padding-top: 22px;
+	padding-bottom: 22px;
+}
+
+.video-title {
+	display: inline-block;
+	font-size: 15px;
+	padding-left: 10px;
+}
+
+.youtube {
+	color: rgb(150, 150, 150);
+}
+

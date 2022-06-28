@@ -1,0 +1,23 @@
+.flex-box {
+  display: flex;
+  height: 50px;
+}
+
+.box1 {
+  display: flex;
+  width: 100px;
+  background-color: lightpink;
+  align-items: center;
+  justify-content: center;
+}
+
+.text {
+  background-color: black;
+  color: white;
+}
+
+.box2 {
+  width: 200px;
+  background-color: lightblue;
+}
+

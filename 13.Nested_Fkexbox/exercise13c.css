@@ -1,0 +1,68 @@
+p {
+  font-family: Roboto, Arial;
+  margin: 0;
+}
+
+.box {
+  display: block;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px rgba(0, 0, 0, 0.4);
+  width: 450px;
+  padding: 10px 15px;
+  padding-bottom: 30px;
+}
+
+.folder {
+  font-family: Roboto, Arial;
+  color: rgb(150, 150, 150);
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 25px;
+}
+
+.mail {
+  display: block;
+}
+
+.icon-box {
+  display: inline-block;
+  width: 70px;
+  margin-right: 8px;
+}
+
+.icon {
+  height: 70px;
+  width: 70px;
+  border-radius: 35px;
+}
+
+.mail-info {
+  display: inline-block;
+}
+
+.first-row {
+  display: block;
+}
+
+.mail-domain {
+  display: inline-block;
+  font-size: 20px;
+  font-weight: bold;
+  width: 300px;
+}
+
+.arrive {
+  display: inline-block;
+  color: rgb(150, 150, 150);
+}
+
+.mail-subject {
+  font-size: 18px;
+  font-weight: bold;
+  margin-top: 5px;
+}
+
+.mail-text {
+  color: rgb(150, 150, 150);
+  margin-top: 5px;
+}
