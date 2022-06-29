@@ -1,0 +1,55 @@
+
+.header {
+	display: flex;
+	justify-content: space-between;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	height: 80px;
+	padding-top: 10px;
+	padding-left: 60px;
+	padding-right: 60px;
+}
+
+.left-section {
+	display: flex;
+	align-items: center;
+}
+
+.profile-picture {
+	width: 50px;
+	border-radius: 25px;
+
+	margin-right: 15px;
+}
+
+.profile-name {
+	font-weight: bold;
+	font-family: Arial;
+}
+
+.right-section {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 200px;
+}
+
+.add {
+	background-color: rgb(24, 119, 242);
+	color: white;
+	font-weight: bold;
+	border: none;
+	border-radius: 5px;
+	padding: 7px 15px;
+}
+
+.message {
+	background-color: rgb(221, 221, 221);
+	border: none;
+	font-weight: bold;
+	border-radius: 5px;
+	padding: 7px 15px;
+
+}
