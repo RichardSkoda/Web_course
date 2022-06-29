@@ -49,10 +49,6 @@
   width: 0;
 }
 
-.search-bar:active {
-  background-color: rgb(31, 28, 114);
-}
-
 .search-bar::placeholder {
   font-family: Roboto, Arial;
   font-size: 16px;
