@@ -12,6 +12,7 @@ body {
 	left: 0;
 	right: 0;
 	height: 50px;
+	z-index: 1;
 }
 
 .sidebar {
@@ -22,6 +23,14 @@ body {
 	bottom: 0;
 	left: 0;
 	width: 72px;
+}
+
+.absolute {
+	position: absolute;
+	background-color: red;
+	color: white;
+	right: 0px;
+	top: 0px;
 }
 
 .div1 {
@@ -35,4 +44,13 @@ body {
 	background-color: lightpink;
 	height: 200px;
 	width: 200px;
+	position: relative;
+}
+
+.absolute2 {
+	position: absolute;
+	background-color: black;
+	color: white;
+	bottom: 5px;
+	right: 5px;
 }

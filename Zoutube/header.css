@@ -12,6 +12,7 @@
   border-bottom-width: 1px;
   border-bottom-style: solid;
   border-color: rgb(230, 230, 230);
+  z-index: 100;
 }
 
 .left-section {
@@ -71,10 +72,33 @@
   background-color: rgb(224, 224, 224);
 }
 
+.button-number {
+  position: relative;
+}
+
 .search-icon {
   height: 25px;
   width: 25px;
   margin-top: 4px;
+}
+
+.notification-number {
+  position: absolute;
+  top: -3px;
+  right: -6px;
+  background-color: rgb(206, 31, 31);
+  color: white;
+  font-family: Roboto, Arial;
+  font-size: 9px;
+  border: solid;
+  border-width: 2px;
+  border-color: white;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border-radius: 8px;
+  
 }
 
 .voice-search-button {
