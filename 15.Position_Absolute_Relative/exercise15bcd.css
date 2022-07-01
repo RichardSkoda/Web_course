@@ -1,0 +1,38 @@
+body {
+	width: 3000px;
+}
+
+.box {
+	position: fixed;
+	background-color: rgb(150, 150, 150);
+	bottom: 20px;
+  right: 20px;
+	width: 320px;
+	height: 180px;
+}
+
+.close {
+  background-color: black;
+  color: white;
+  position: absolute;
+  top: -20px;
+  left: -20px;
+  font-family: Arial;
+  font-size: 20px;
+  width: 45px;
+  height: 45px;
+  border-radius: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.time {
+	font-family: Arial;
+	background-color: black;
+	color: white;
+	position: absolute;
+	bottom: 10px;
+	right: 10px;
+	padding: 6px;
+}
