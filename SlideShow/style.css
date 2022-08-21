@@ -18,7 +18,7 @@ body {
   transform: translate(-50%, -50%);
   width: 700px;
   height: 400px;
-  /* overflow: hidden; */
+  overflow: hidden;
 }
 
 .slides input{
@@ -31,13 +31,14 @@ body {
   height: 100%;
 }
 
-.slide {
-  width: 20%;
-}
-
 .slide img {
   width: 100%;
   height: 100%;
+}
+
+.slide {
+  width: 20%;
+  transition: all 0.7s ease;
 }
 
 .navigation {
@@ -55,9 +56,28 @@ body {
   height: 15px;
   border: 2px solid white;
   cursor: pointer;
-  z-index: 100;
 }
 
 .bar:hover {
   background-color: white;
+}
+
+#r1:checked ~ .s1 {
+  margin-left: 0;
+}
+
+#r2:checked ~ .s1 {
+  margin-left: -20%;
+}
+
+#r3:checked ~ .s1 {
+  margin-left: -40%;
+}
+
+#r4:checked ~ .s1 {
+  margin-left: -60%;
+}
+
+#r5:checked ~ .s1 {
+  margin-left: -80%;
 }
